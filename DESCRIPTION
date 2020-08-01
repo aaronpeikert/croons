@@ -1,0 +1,28 @@
+Package: croons
+Type: Package
+Title: Croon Correction for Multilevel Data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Aaron",
+      "Peikert",
+      ,
+      email = "aaron.peikert@posteo.de",
+      role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0001-7813-818X")
+    ),
+    person(
+      "Caroline",
+      "Gahrmann",
+      ,
+      role = c("aut")
+    ))
+Description: Implements Croon's Correction for multilevel factorscore regrssion.
+    Do not use it! It is neither well developed nor well tested.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    lavaan
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

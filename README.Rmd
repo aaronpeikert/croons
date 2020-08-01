@@ -1,0 +1,41 @@
+---
+output: github_document
+bibliography: [packages.bib, literature.bib]
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# croons
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package implements Croon's correction for multilevel data as outlined by @devlieger2019 using lavaan [@lavaan2012].
+This package will not be maintained, because I expect that Yves Rosseel and colleagues will soon make their code publicly available.
+
+## Installation
+
+```{r, eval=FALSE}
+if(!requireNamespace("remotes"))install.packages("remotes")
+remotes::install_github("aaronpeikert/croons")
+```
+
+## Code of Conduct
+
+Please note that the croons project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+## References
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c('lavaan'), 'packages.bib')
+```
