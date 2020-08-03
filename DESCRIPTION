@@ -36,3 +36,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/aaronpeikert/croons
+BugReports: https://github.com/aaronpeikert/croons/issues
